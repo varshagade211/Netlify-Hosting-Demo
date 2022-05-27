@@ -1,0 +1,59 @@
+
+.color-container{
+   display: flex;
+   flex-wrap: wrap;
+   /* flex-direction: row-reverse; */
+   /* -------->row--------> */
+   /*
+     |
+     | column
+     |
+     |
+
+   */
+   justify-content: space-between;
+   /* align-items: center; */
+   align-content: center;
+    height:90vh;
+}
+.color-container div{
+    width: 100px;
+    height:100px;
+}
+.red{
+
+   background-color: red;
+}
+.blue{
+
+   background-color: blue;
+}
+.green{
+
+    background-color: green;
+}
+.yellow{
+
+    background-color: yellow;
+}
+.pink{
+
+    background-color: pink;
+}
+.cream{
+
+    background-color: cornsilk;
+}
+.cyan{
+
+    background-color: cyan;
+}
+.black{
+    background-color: black;
+}
+.voilet{
+    background-color:violet;
+}
+.grey{
+    background-color:grey;
+}
